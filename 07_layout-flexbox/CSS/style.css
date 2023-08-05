@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* global */
+.main-title {
+  display: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 30px auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.link-reset {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-reset {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  padding: 13px 20px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+/* header */
+.header-hero {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-phone {
+  margin-right: auto;
+  margin-left: 40px;
+}
+
+.header-list {
+  list-style: none;
+}
+
+.header-block {
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-bottom: 70px;
+}
+
+
+.header-item:not(:first-child) {
+  margin-left: 45px;
+}
+
+.header-btn-want-tour {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.special-offers-blocks {
+
+  width: 573px;
+  height: 258px;
+  padding-bottom: 40px;
+  padding-left: 45px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.special-offers-blocks:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+/* .special-offers-blocks:first-child {
+  margin-bottom: 24px;
+} */
+
+.special-offer {
+  flex-wrap: wrap;
+  vertical-align: top;
+}
+
+.special-offers-blocks-text {
+  margin-bottom: 47px;
+}
+
+/* about-us */
+.about-us-descr {
+  max-width: 888px;
+}
+
+/* services */
+.services-blocks {
+  flex-wrap: wrap;
+}
+
+.services-block {
+  flex-direction: column;
+  width: 573px;
+}
+
+.services-block:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+/* advantages */
+
+
+.advantages-block {
+  width: 276px;
+  padding: 40px 0 32px 45px;
+}
+
+.advantages-img {
+  margin-bottom: 10px;
+}
+
+.advantages-block:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+.advantages-block:nth-child(-n+4) {
+  margin-bottom: 22px;
+}
+
+.advantages-blocks {
+  flex-wrap: wrap;
+}
+
+.accommodation {
+  flex-wrap: wrap;
+}
+
+.accommodation-block:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+.accommodation-block:nth-child(-n+6) {
+  margin-bottom: 24px;
+}
