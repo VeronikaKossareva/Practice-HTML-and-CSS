@@ -65,6 +65,7 @@ body {
   --grey: #666666;
   --dark-grey: #333333;
   --black: #000;
+  --gradient: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0.00) 66.67%);
 }
 
 /* global */
@@ -271,7 +272,7 @@ section {
 
 .special-offers-maldiv:after,
 .special-offers-krit:after {
-  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0.00) 66.67%);
+  background: var(--gradient);
   position: absolute;
   top: 0;
   left: 0;
