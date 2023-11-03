@@ -220,7 +220,7 @@ img {
 
 /* hero */
 .hero__container {
-  background-image: url(../IMG/low-angle-photo-of-balconies-2462015\ 1.jpg);
+  background-image: url(../IMG/hero_1920.jpg);
   padding: 100px 80px;
   border-radius: 25px;
   background-repeat: no-repeat;
@@ -374,36 +374,19 @@ img {
 }
 
 .about-us__item {
-  position: relative;
   border: 1px solid var(--grey-dark);
   border-radius: 32px;
   padding: 64px 60px;
-  background-image: url(/weblayout/13_adaptive-layout-mobile/IMG/square.svg);
   background-repeat: no-repeat;
-  background-position: 125px 65px;
+  background-position: 56px center;
 }
 
-.about-us__item::before {
-  content: "";
-  position: absolute;
-  top: 110px;
-  left: 55px;
-  width: 120px;
-  height: 120px;
-  background-color: var(--accent-middle);
-  border-radius: 100%;
-  z-index: -1;
+.about-us__item--cube {
+  background-image: url(/weblayout/13_adaptive-layout-mobile/IMG/cube_1920.svg);
 }
 
-.about-us__item--big {
-  background-image: url(/weblayout/13_adaptive-layout-mobile/IMG/hexagon.svg);
-  background-position: 112px 63px;
-}
-
-.about-us__item--big::before {
-  top: 98px;
-  width: 128px;
-  height: 128px;
+.about-us__item--gear {
+  background-image: url(/weblayout/13_adaptive-layout-mobile/IMG/gear_1920.svg);
 }
 
 .about-us__list {
@@ -435,15 +418,6 @@ img {
 
 .stages__block {
   display: flex;
-}
-
-.stages__pic {
-  border-radius: 25px;
-  width: 870px;
-  background-image: url(../IMG/stages.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .stages__subtitle {
