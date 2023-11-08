@@ -1,6 +1,19 @@
 @media (min-width: 3840px) {
   .container {
-    max-width: 3840px;
+    max-width: 80%;
+  }
+
+  .header__logo img {
+    width: 450px;
+  }
+
+  .nav__link {
+    font-size: 44px;
+  }
+
+  .search svg {
+    width: 60px;
+    height: 60px;
   }
 
   .hero {
@@ -8,16 +21,42 @@
   }
 
   .hero__content {
-    width: 100%;
+    width: 50%;
+  }
+
+  .hero__title {
+    font-size: 90px;
+  }
+
+  .hero__descr {
+    font-size: 43px;
+  }
+
+  .hero__container {
+    max-width: 3840px;
+  }
+
+  .btn--big {
+    padding: 40px 58px;
+    font-size: 43px;
+  }
+
+  .about-us__title {
+    font-size: 65px;
   }
 
   .about-us__descr {
     max-width: 70%;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .blocks {
+    gap: 70px;
   }
 
   .blocks__image {
     width: 50%;
-    height: auto;
   }
 
   .blocks__wraper {
@@ -25,57 +64,160 @@
   }
 
   .blocks__descr {
-    width: 50%;
+    width: 65%;
     margin-right: auto;
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  .btn--bordercol {
+    font-size: 30px;
+    padding: 29px 61px
   }
 
   .about-us__list {
     width: 50%;
+    gap: 70px;
   }
 
   .about-us__text {
     width: 50%;
-  }
-
-  .about-us__item {
-    padding: 80px 70px;
-  }
-
-  .about-us__pic {
-    right: 1600px;
-  }
-
-  .about-us__text {
     margin-left: 200px;
   }
 
+  .about-us__item {
+    padding: 100px 70px;
+    background-position: 114px center;
+  }
+
+  .about-us__subtitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .about-us__desc {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .about-us__text {
+    margin-left: 350px;
+    width: 65%;
+  }
+
+  .stages__title {
+    font-size: 65px;
+  }
+
+  .stages__subtitle {
+    font-size: 36px;
+    margin-bottom: 22px;
+  }
+
   .stages__descr {
-    min-width: 1500px;
+    width: 70%;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 24px;
   }
 
   .stages__text {
+    width: 50%;
     margin-right: 32px;
   }
 
-  .questions__subtitle,
-  .questions__descr {
+  .stages__block {
+    justify-content: space-between;
+    gap: 70px;
+  }
+
+  .stages__pic {
+    width: 50%;
+  }
+
+  .stages__pic img {
     width: 100%;
   }
 
-  .footer__top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  .btn--small,
+  .btn--border {
+    font-size: 30px;
+    padding: 29px 61px;
   }
 
-  .footer__logo {
-    margin-right: 300px;
+  .questions__title {
+    font-size: 65px;
+  }
+
+  .questions__subtitle {
+    font-size: 36px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+
+  .questions__descr {
+    width: 100%;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .questions__list {
+    gap: 70px;
+  }
+
+  .footer__logo img {
+    width: 450px;
+  }
+
+  .footer__link {
+    font-size: 24px
   }
 
   .footer__list {
-    /* display: flex; */
-    flex-direction: row;
-    gap: 50px;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .footer__title {
+    font-size: 65px;
+  }
+
+  .footer__input {
+    font-size: 28px;
+    padding: 22px 27px;
+  }
+
+  .footer__form {
+    width: 973px;
+    margin-bottom: 57px;
+  }
+
+  .footer__media {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    gap: 15px;
+  }
+
+  .footer__media svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .btn--footer {
+    font-size: 30px;
+    padding: 29px 61px;
+    margin-right: 22px;
+  }
+
+  .footer__wrap {
+    font-size: 30px;
+  }
+
+  .footer__checkbox {
+    width: 30px;
+    height: 30px;
   }
 
   .footer__container {
@@ -83,8 +225,10 @@
   }
 
   .footer__text {
-    margin-left: 200px;
+    margin-left: 293px;
     width: 700px;
+    font-size: 30px;
+    line-height: 50px;
   }
 }
 
@@ -315,6 +459,14 @@
   .stages__block {
     flex-direction: column-reverse;
     gap: 31px;
+  }
+
+  .stages__pic {
+    width: 100%;
+  }
+
+  .stages__pic img {
+    width: 100%;
   }
 
   .stages__text {
