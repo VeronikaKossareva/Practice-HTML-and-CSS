@@ -773,7 +773,8 @@
     width: 100%;
   }
 
-  .footer__input {
+  .footer__input,
+  .footer__input:autofill {
     font-size: 14px;
     font-weight: 400;
     line-height: 32px;
