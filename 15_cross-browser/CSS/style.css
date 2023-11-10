@@ -563,7 +563,8 @@ img {
   margin-bottom: 32px;
 }
 
-.footer__input {
+.footer__input,
+.footer__input:autofill {
   background-color: var(--grey-dark);
   color: var(--grey-light);
   font-size: 16px;
@@ -576,13 +577,42 @@ img {
 }
 
 .footer__input:focus,
-.footer__input:hover {
+.footer__input:hover,
+.footer__input:autofill:hover,
+.footer__input:autofill:focus {
   background-color: var(--grey-midle);
   outline: none;
 }
 
-.footer__input:active {
+.footer__input:active,
+.footer__input:autofill:active {
   color: var(--light);
+}
+
+.footer__input:-webkit-autofill,
+.footer__input:autofill {
+  -webkit-text-fill-color: var(--grey-light);
+  -webkit-box-shadow: 0 0 0px 1000px var(--grey-dark) inset;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  transition: -webkit-box-shadow 0.3s ease-in-out, -webkit-text-fill-color 0.3s ease-in-out;
+}
+
+.footer__input:-webkit-autofill:hover,
+.footer__input:-webkit-autofill:focus,
+.footer__input:autofill:hover,
+.footer__input:autofill:focus {
+  -webkit-text-fill-color: var(--grey-light);
+  -webkit-box-shadow: 0 0 0px 1000px var(--grey-midle) inset;
+}
+
+.footer__input:-webkit-autofill:active,
+.footer__input:autofill:active {
+  -webkit-text-fill-color: var(--light);
+  -webkit-box-shadow: 0 0 0px 1000px var(--grey-midle) inset;
 }
 
 .btn--footer {
