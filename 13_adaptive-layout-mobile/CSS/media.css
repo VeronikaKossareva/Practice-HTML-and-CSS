@@ -675,11 +675,11 @@
   }
 
   .about-us__item--cube {
-    background-image: url(/weblayout/13_adaptive-layout-mobile/IMG/cube_320.svg);
+    background-image: url(../IMG/cube_320.svg);
   }
 
   .about-us__item--gear {
-    background-image: url(/weblayout/13_adaptive-layout-mobile/IMG/gear_320.svg);
+    background-image: url(../IMG/gear_320.svg);
   }
 
   .about-us__list {
